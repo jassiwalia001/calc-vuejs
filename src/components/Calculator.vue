@@ -313,7 +313,7 @@ export default {
       calcString2: "",
       calcResult: "",
       operationSet: false,
-      submitDone: false
+      submitDone: false,
     };
   },
   methods: {
@@ -353,7 +353,7 @@ export default {
       this.calcString2 = this.calcString;
       this.calcResult = evaluate(evalString).toString();
       this.calcString = evaluate(evalString).toString();
-      if(this.calcString === this.calcString2) {
+      if (this.calcString === this.calcString2) {
         this.calcString2 = "Ans";
       }
     },
