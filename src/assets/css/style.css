@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+/* Custom Styles */
+
+body {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+
+/* Custom Styles */
+@tailwind utilities;
